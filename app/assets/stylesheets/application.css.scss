@@ -1,0 +1,54 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+body{
+  background: green;
+}
+
+.container{
+    background: grey;
+}
+
+
+.blue{
+  background: blue;
+}
+
+
+.three-em-height{
+  height: 3em;
+}
+
+.red{
+  background: red;
+}
+
+.two-em-height{
+  height: 2em;
+}
+
+.yellow{
+  background: yellow;
+}
+
+.four-em-height{
+  height: 4em;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.fantasy{
+  font-family: fantasy;
+}
+
+.textcenter{
+  text-align: center;
+}
