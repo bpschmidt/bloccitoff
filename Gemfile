@@ -8,6 +8,8 @@ gem 'sqlite3'
 
 gem 'bootstrap-sass', '~> 3.3.6'
 
+gem 'faker'
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.4'
 end
@@ -31,6 +33,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'figaro', '1.0'
+
+gem 'rubysl-securerandom'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
