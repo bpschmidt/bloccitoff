@@ -1,1 +1,3 @@
-<li> <b> <%= item.name %> </b> <br> <small> (<%= item.created_at %>)</small> </li>
+<li> <b> <%= item.name %> </b> <br> <small> (<%= distance_of_time_in_words(item.created_at, Time.now) %>)</small> </li>
+<%= link_to "Edit", edit_user_item_path(current_user, item), class: 'glyphicon glyphicon-edit' %> <br>
+<%= link_to "Mark as complete", [current_user, item], method: :delete, class: 'glyphicon glyphicon-check' %>

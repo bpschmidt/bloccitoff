@@ -52,3 +52,25 @@ body{
 .textcenter{
   text-align: center;
 }
+
+a {
+    color: black;
+    font-family: "arial black", sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: medium;
+}
+
+ol {
+  font-weight:bold;
+  color: green;
+}
+
+h2 {
+  color: green;
+}
+
+.btn {
+  border-radius: 24px;
+  border-style: groove;
+}

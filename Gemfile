@@ -12,6 +12,7 @@ gem 'faker'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.4'
+  gem 'pry'
 end
 gem 'devise'
 # Use SCSS for stylesheets
